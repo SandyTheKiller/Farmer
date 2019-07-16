@@ -1,0 +1,91 @@
+<resources>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin_big_activity">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="app_bar_height_image_view">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="text_margin_small">8dp</dimen>
+    <dimen name="text_margin_very_small">4dp</dimen>
+    <dimen name="btn_padding">20dp</dimen>
+    <dimen name="btn_margin">14dp</dimen>
+    <dimen name="my_app_bar_height">128dp</dimen>
+    <dimen name="my_app_bar_overlap">56dp</dimen>
+    <dimen name="borderRadius">5dp</dimen>
+    <dimen name="item_offset">2dp</dimen>
+    <integer name="number_of_column">2</integer>
+    <dimen name="card_margin_horizontal">8dp</dimen>
+    <dimen name="card_margin_vertical">8dp</dimen>
+    <dimen name="card_margin_horizontal_big_activity">8dp</dimen>
+    <dimen name="card_margin_vertical_big_activity">4dp</dimen>
+    <dimen name="card_recycler_corner_radius">2dp</dimen>
+    <dimen name="card_recycler_elevation">2dp</dimen>
+
+    <dimen name="main_card_margin_horizontal">8dp</dimen>
+    <dimen name="my_apps_card_margin_horizontal">16dp</dimen>
+    <dimen name="main_card_margin_vertical">8dp</dimen>
+    <dimen name="main_card_margin_horizontal_big_activity">8dp</dimen>
+
+    <dimen name="card_title_margin_top">24dp</dimen>
+    <dimen name="card_title_margin">16dp</dimen>
+    <dimen name="card_subtitle_margin">16dp</dimen>
+    <dimen name="card_button_margin">8dp</dimen>
+
+    <dimen name="zero_horizontal_margin">0dp</dimen>
+    <dimen name="zero_horizontal_margin_big_activity">0dp</dimen>
+
+    <dimen name="start_page_image_size">144dp</dimen>
+    <dimen name="share_view_round_margin">16dp</dimen>
+
+    <dimen name="big_activity_margin_vertical">96dp</dimen>
+    <dimen name="big_activity_margin_horizontal">72dp</dimen>
+    <dimen name="big_activity_fab_margin">16dp</dimen>
+    <dimen name="big_activity_text_margin">16dp</dimen>
+
+
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+    <dimen name="img_width_height">120dp</dimen>
+    <dimen name="slide_title">30dp</dimen>
+    <dimen name="slide_desc">16dp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+
+    <dimen name="default_gap">5dp</dimen>
+    <dimen name="default_margin">16dp</dimen>
+    <dimen name="search_bar_default_gap">10dp</dimen>
+    <dimen name="button_primary">16dp</dimen>
+    <dimen name="button_secondary">13dp</dimen>
+    <dimen name="button_ternary">10dp</dimen>
+    <dimen name="fon_report_issue">14dp</dimen>
+    <dimen name="margin_12">12dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+
+    <dimen name="font_primary">16dp</dimen>
+    <dimen name="font_secondary">14dp</dimen>
+    <dimen name="margin_dialog">11dp</dimen>
+    <dimen name="bar_side_margin">20dp</dimen>
+    <dimen name="font_terms">11dp</dimen>
+    <dimen name="font_dialog">15dp</dimen>
+    <dimen name="font_big">20dp</dimen>
+    <dimen name="font_rank_big">24dp</dimen>
+    <dimen name="gap_feed_items">2.75dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="top_bar_height">48dp</dimen>
+    <dimen name="font_header">20dp</dimen>
+    <dimen name="bottom_bar_icon_padding">10dp</dimen>
+    <dimen name="font_ranks">18dp</dimen>
+    <dimen name="top_holding_items10">10dp</dimen>
+    <dimen name="top_holding_items12">12dp</dimen>
+    <dimen name="top_holding_gap">2dp</dimen>
+    <dimen name="item_gap_8">7dp</dimen>
+    <dimen name="font_holding_items">13dp</dimen>
+    <dimen name="font_holding_items_bold">16dp</dimen>
+
+    <dimen name="font_place_order_items">15dp</dimen>
+    <dimen name="font_place_order_items_bold">17dp</dimen>
+    <dimen name="paddin10">10dp</dimen>
+</resources>

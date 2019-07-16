@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include
+        android:id="@+id/toolbar_main"
+        layout="@layout/row_toolbar" />
+    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+        android:id="@+id/choose_farm1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="Choose Farm"
+        android:textColorHint="#05ab9a"
+        app:met_floatingLabel="normal" />
+    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+        android:id="@+id/choose_crop1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_margin="16dp"
+        android:hint="Choose Crop"
+        android:textColorHint="#05ab9a"
+        app:met_floatingLabel="normal" />
+    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+        android:id="@+id/choose_disase1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_margin="16dp"
+        android:hint="Choose Kid"
+        android:textColorHint="#05ab9a"
+        app:met_floatingLabel="normal" />
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:mrl_rippleAlpha="0.2"
+        app:mrl_rippleColor="@color/colorRipple"
+        app:mrl_rippleHover="true"
+        app:mrl_rippleOverlay="true">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_kidshow"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="25dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/title_shape"
+            android:text="SHOW"/>
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+</LinearLayout>

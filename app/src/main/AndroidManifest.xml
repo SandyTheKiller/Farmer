@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yoga.farmer">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WelcomeActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Fragment.ForgotPassword"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".activity.Farm_Reg_Activity" />
+        <activity android:name=".FarmTips" />
+        <activity android:name=".adapter.FarmTipsAdapter" />
+        <activity android:name=".adapter.ExprimentsAdapter" />
+        <activity android:name=".activity.ExperimentActivity" />
+        <activity android:name=".adapter.SuccessStoryAdapter" />
+        <activity android:name=".SuccessStoryActivity" />
+        <activity android:name=".QuestionActivity" />
+        <activity android:name=".activity.DesFarmActivity" />
+        <activity android:name=".activity.DesExperiActivity" />
+        <activity android:name=".activity.DesSuccessActivity" />
+        <activity android:name=".activity.DisesesManagementActivity" />
+        <activity android:name=".KidManagementActivity" />
+        <activity android:name=".activity.FarmPlanActivity"></activity>
+    </application>
+
+</manifest>
